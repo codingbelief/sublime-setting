@@ -1,0 +1,17 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"FileDiffs",
+		"GBK Support",
+		"GitGutter",
+		"Package Control",
+		"ProjectManager",
+		"SideBarEnhancements",
+		"Vue Syntax Highlight"
+	]
+}
