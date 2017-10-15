@@ -6,8 +6,8 @@
 	"installed_packages":
 	[
 		"Babel",
+		"ConvertToUTF8",
 		"FileDiffs",
-		"GBK Support",
 		"GitGutter",
 		"Package Control",
 		"ProjectManager",
