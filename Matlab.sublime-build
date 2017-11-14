@@ -1,5 +1,5 @@
 {
     "cmd": ["matlab", "-nodesktop", "-nosplash", "-r", "\"run('$file')\""],
-    "selector": "source.m",
+    "selector": "source.matlab",
     "working_dir": "${project_path:${folder}}"
 }
