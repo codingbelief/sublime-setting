@@ -1,8 +1,21 @@
 [
-	{ "keys": ["alt+1"], "command": "goto_definition" },
-	{ "keys": ["alt+q"], "command": "jump_back" },
-	{ "keys": ["alt+w"], "command": "jump_forward" },
+	{ "keys": ["alt+,"], "command": "jump_back" },
+	{ "keys": ["alt+."], "command": "jump_forward" },
 	{ "keys": ["ctrl+shift+\\"], "command": "reveal_in_side_bar"},
 	{ "keys": ["pause"], "command": "cancel_build" },
-	{ "keys": ["alt+f"], "command": "side_bar_find_in_parent", "args": {"paths": []} }
+	{ "keys": ["alt+f"], "command": "side_bar_find_in_parent", "args": {"paths": []} },
+	{ "keys": ["ctrl+v"], "command": "paste_and_indent" },
+	{ "keys": ["ctrl+shift+v"], "command": "paste" },
+
+	{ "keys": ["alt+q"], "command": "gtags_backward" },
+	{ "keys": ["alt+w"], "command": "gtags_forward" },
+	{ "keys": ["alt+5"], "command": "gtags_show_trace" },
+
+	{ "keys": ["alt+1"], "command": "gtags_jump_to_definition" },
+	{ "keys": ["alt+2"], "command": "gtags_jump_to_reference" },
+	{ "keys": ["alt+3"], "command": "gtags_list_definitions_of_file" },
+	{ "keys": ["alt+4"], "command": "gtags_lookup_definition" },
+	{ "keys": ["alt+u"], "command": "gtags_update_tags" },
+	{ "keys": ["alt+v"], "command": "gtags_version" },
+	{ "keys": ["alt+i"], "command": "gtags_single_file_update_tags" },
 ]
