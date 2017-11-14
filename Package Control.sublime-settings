@@ -8,8 +8,10 @@
 		"Babel",
 		"ConvertToUTF8",
 		"FileDiffs",
+		"Filter Lines",
 		"GitGutter",
 		"Package Control",
+		"Pretty JSON",
 		"ProjectManager",
 		"SideBarEnhancements",
 		"Vue Syntax Highlight"
