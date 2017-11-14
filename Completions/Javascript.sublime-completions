@@ -1,0 +1,12 @@
+{
+   "scope": "source.js, source.jsx, source.ts source.vue",
+
+   "completions":
+   [
+      { "trigger": "de\tdebug", "contents": "debug('$0');" },
+      { "trigger": "set\tsetTimeout", "contents": "setTimeout(() => {${1:}}, ${2:1000});" },
+      { "trigger": "set\tsetInterval", "contents": "setInterval(() => {${1:}}, ${2:1000});" },
+      { "trigger": "cd\tconsole.dir", "contents": "console.dir(${1:obj});" },
+      { "trigger": "ce\tconsole.error", "contents": "console.error(${1:obj});" },
+   ]
+}

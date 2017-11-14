@@ -1,0 +1,44 @@
+<snippet>
+	<content><![CDATA[
+console.log(${1:obj});
+]]></content>
+	<tabTrigger>cl</tabTrigger>
+	<scope>source.js, source.jsx, source.ts source.vue</scope>
+	<description>console.log</description>
+</snippet>
+
+<snippet>
+	<content><![CDATA[
+console.dir(${1:obj});
+]]></content>
+	<tabTrigger>cd</tabTrigger>
+	<scope>source.js, source.jsx, source.ts source.vue</scope>
+	<description>console.dir</description>
+</snippet>
+
+<snippet>
+	<content><![CDATA[
+console.info(${1:obj});
+]]></content>
+	<tabTrigger>ci</tabTrigger>
+	<scope>source.js, source.jsx, source.ts source.vue</scope>
+	<description>console.info</description>
+</snippet>
+
+<snippet>
+	<content><![CDATA[
+console.error(${1:obj});
+]]></content>
+	<tabTrigger>ce</tabTrigger>
+	<scope>source.js, source.jsx, source.ts source.vue</scope>
+	<description>console.error</description>
+</snippet>
+
+<snippet>
+	<content><![CDATA[
+console.warn(${1:obj});
+]]></content>
+	<tabTrigger>cw</tabTrigger>
+	<scope>source.js, source.jsx, source.ts source.vue</scope>
+	<description>console.warn</description>
+</snippet>
