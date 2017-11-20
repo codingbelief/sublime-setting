@@ -8,5 +8,6 @@
 	],
 	"show_full_path": false,
 	"show_line_endings": true,
+	"find_selected_text": true,
 	"vintage_start_in_command_mode": false
 }
